@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>🏠 Housing Price Predictor 🏠</title>
+	<link rel="stylesheet" href="static/css/cssfile.css">
+</head>
+<body>
+	<div class="login">
+		<center><h1>🏠 Housing Price Predictor 🏠</h1></center>
+		<center>
+			<h2>
+				Welcome to my website.
+				<br>
+				<br>
+				Enter the following data to predict the price of house.
+			</h2>
+		</center>
+		<br>
+		<form action="{{url_for('predict')}}" method="post" class="form-container">
+			<div class="div">
+				<label>
+					Median income in block 💵
+					<br>
+					<input type="number" min=0 name="Medinc" required="required">
+			</label>
+				<label>
+					Number of rooms 🚪
+					<br>
+					<input type="number" min=0 name="rooms" required="required">
+				</label>
+			</div>
+			<br>
+			<br>
+
+			<div class="div">
+				<label>
+					Median house age in block 🕒
+					<br>
+					<input type="number" min=0 name="houseage" required="required">
+				</label>
+				<label>
+					Number of bedrooms 🛏️
+					<br>
+					<input type="number" min=0 name="bedrooms" required="required">
+				</label>
+			</div>
+			<br>
+			<br>
+
+			<div class="div">
+				<label>
+					Block population 👪
+					<br>
+					<input type="number" min=0 name="Population" required="required">
+				</label>
+				<label>
+					House occupancy 🏡
+					<br>
+					<input type="number" min=0 name="Occupancy" required="required">
+				</label>
+			</div>
+			<br>
+			<br>
+			<div class="div">
+			<button type="submit" class="btn btn-primary btn-block btn-large">
+			PREDICT
+			</button>
+			</div>
+			<br>
+			<br>
+			<div class="q">
+   		<strong style="font-size:35px">{{ prediction_text }}</strong>
+   		<!-- The price of the house is : $100000 -->
+   		</div>
+		</form>
+		<br>
+   		<br>
+	</div>
+</body>
+</html>
