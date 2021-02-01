@@ -1,4 +1,4 @@
-# Housting-price-prediction 🏠🏘✔
+# California-housing-price-prediction 🏠🏘✔
 
 ## Table of Contents
   * [Demo](#demo)
