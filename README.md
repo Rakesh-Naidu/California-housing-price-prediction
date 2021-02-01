@@ -6,6 +6,7 @@
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
+  * [Technologies used](#technologies-used)
 
 ## Demo
 Link: [https://housingpricepred-api.herokuapp.com/](https://housingpricepred-api.herokuapp.com/)
