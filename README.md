@@ -3,6 +3,7 @@
 ## Table of Contents
   * [Demo](#demo)
   * [Overview](#overview)
+  * [About the dataset](#about-the-dataset)
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
   * [Directory Tree](#directory-tree)
@@ -17,6 +18,9 @@ Link: [https://housingpricepred-api.herokuapp.com/](https://housingpricepred-api
 
 ## Overview
 This is a Flask web app which predicts the median value of house.
+
+## About the dataset
+This dataset was derived from the 1990 U.S. census, using one row per census block group. A block group is the smallest geographical unit for which the U.S Census Bureau publishes sample data (a block group typically has a population of 600 to 3,000 people).
 
 ## Installation
 The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
