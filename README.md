@@ -28,8 +28,8 @@ Information is collected on the variables using all the block groups in Californ
 # Dataset description
 Column title |	Description	| Range	| Datatype
 --- | ----- | ---------- | ---
-longitude	| <ul><li>A measure of how far west a house is</li> <li>A higher value is farther west</li>	| <ul> <li>Longitude values range from -180 to +180</li>  <li>Data set min: -124.3</li> <li>Data set max: -114.3</li> </ul> | float64
- latitude	| <ul> <li>A measure of how far north a house is</li> <li>A higher value is farther north</li>	| <ul> <li>Latitude values range from -90 to +90</li> <li>Data set min: 32.5</li> <li>Data set max: 42.5</li> </ul>| float64
+longitude	|  A measure of how far west a house is; a higher value is farther west	| <ul> <li>Longitude values range from -180 to +180</li>  <li>Data set min: -124.3</li> <li>Data set max: -114.3</li> </ul> | float64
+ latitude	| A measure of how far north a house is; a higher value is farther north	| <ul> <li>Latitude values range from -90 to +90</li> <li>Data set min: 32.5</li> <li>Data set max: 42.5</li> </ul>| float64
 housingMedianAge	| Median age of a house within a block; a lower number is a newer building	| <ul> <li>Data set min: 1.0</li> <li>Data set max: 52.0</li> </ul> | float64
 totalRooms	| Total number of rooms within a block	| <ul> <li>Data set min: 2.0</li> <li>Data set max: 37937.0</li> </ul>| float64
 totalBedrooms	| Total number of bedrooms within a block	 | <ul> <li>Data set min: 1.0</li> <li>Data set max: 6445.0</li> </ul> | float64
