@@ -18,7 +18,7 @@ def predict():
     final_feat = [np.array(features)]
     prediction = model.predict(final_feat)
     ans = round(prediction[0],2)*100000
-    return render_template('index.html', prediction_text = "The median house value is : ${}".format(ans))
+    return render_template('index.html', prediction_text = "The median house value is : ${0:.0f}".format(ans))
 
 if __name__ == "__main__":
     app.run(debug=True)
