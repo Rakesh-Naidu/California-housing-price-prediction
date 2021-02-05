@@ -25,7 +25,7 @@ Link: [https://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.tgz](https://www.
 
 Information is collected on the variables using all the block groups in California from the 1990 Census. In this sample a block group on average includes 1425.5 individuals living in a geographically compact area. Naturally, the geographical area included varies inversely with the population density. Distances are computed among the centroids of each block group as measured in latitude and longitude. All the block groups reporting zero entries for the independent and dependent variables are excluded. The final data contained 20,640 observations on 9 characteristics.
 
-# Dataset description
+## Dataset description
 Column title |	Description	| Range	| Datatype
 --- | ----- | ---------- | ---
 longitude	|  A measure of how far west a house is; a higher value is farther west	| <ul> <li>Longitude values range from -180 to +180</li>  <li>Data set min: -124.3</li> <li>Data set max: -114.3</li> </ul> | float64
