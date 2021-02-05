@@ -14,7 +14,7 @@ Link: [https://housingpricepred-api.herokuapp.com/](https://housingpricepred-api
 
 [![](https://user-images.githubusercontent.com/44801151/106480054-fb7a3f00-64d0-11eb-8f5a-af3295b65dbd.png)](https://housingpricepred-api.herokuapp.com/)
 
-[![](https://user-images.githubusercontent.com/44801151/106480252-2f556480-64d1-11eb-8220-6145286b7603.png)](https://housingpricepred-api.herokuapp.com/)
+[![](https://user-images.githubusercontent.com/44801151/107042426-c24f1100-67e7-11eb-9757-dee8a2c3fc30.png)](https://housingpricepred-api.herokuapp.com/)
 
 ## Overview
 This is a Flask web app which predicts the median value of house.
