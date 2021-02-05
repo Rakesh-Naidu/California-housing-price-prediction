@@ -3,7 +3,7 @@
 ## Table of Contents
   * [Demo](#demo)
   * [Overview](#overview)
-  * [Dataset](#about-the-dataset)
+  * [About the dataset](#about-the-dataset)
   * [Dataset description](#dataset-description)
   * [Installation](#installation)
   * [Deployement on Heroku](#deployement-on-heroku)
